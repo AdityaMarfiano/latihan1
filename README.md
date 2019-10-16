@@ -53,7 +53,9 @@ Menambahkan File baru pada repository
 
 Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add. 
 
-$ git add README.md
+    $ git add README.md
+
+![3](https://user-images.githubusercontent.com/44857690/66886438-80ea8f00-f001-11e9-8cff-fc108beaa6ba.PNG)
 
 File README.md berhasil ditambahkan. Github 2
 
@@ -61,7 +63,9 @@ Commit (Menyimpan perubahan ke database)
 
 Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m “komentar commit” 
 
-$ git commit -m “File pertama saya”
+    $ git commit -m “File pertama saya”
+
+![4](https://user-images.githubusercontent.com/44857690/66886554-ee96bb00-f001-11e9-88d9-c6c81a0676ef.PNG)
 
 Perubahan berhasil disimpan. 
 
@@ -72,6 +76,8 @@ Server reopsitory yang akan kita gunakan adalah http://github.com • Anda harus
 Pada laman github, klik tombol start a project, atau
 
 Dari menu (icon +) klik New Repositori.
+
+![5](https://user-images.githubusercontent.com/44857690/66886636-3d445500-f002-11e9-8b4b-0ce929338dbd.PNG)
 
 Isi nama repositorynya, misal: lab_prog1.
 
@@ -93,14 +99,21 @@ Untuk mengirim perubahan pada local repository ke server gunakan perintah git pu
 
 Perintah ini akan meminta memasukkan username dan password pada akun github.com 
 
+![6](https://user-images.githubusercontent.com/44857690/66886738-9f04bf00-f002-11e9-92ce-436e47afca82.PNG)
+
 Melihat hasilnya pada server repository
 
 Buka laman github.com, arahkan pada repositorinya.
 
-Maka perubahan akan terlihat pada laman tersebut. Github 7
+Maka perubahan akan terlihat pada laman tersebut.
+
+![7](https://user-images.githubusercontent.com/44857690/66886798-d3787b00-f002-11e9-8c56-c4578a0cfdba.PNG)
 
 Clone Repository
 
 Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
 
-Untuk melakukan cloning, gunakan perintah git clone [url] Github 8
+Untuk melakukan cloning, gunakan perintah git clone [url] 
+
+![7](https://user-images.githubusercontent.com/44857690/66886798-d3787b00-f002-11e9-8c56-c4578a0cfdba.PNG)
+
